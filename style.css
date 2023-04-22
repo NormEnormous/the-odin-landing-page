@@ -3,6 +3,7 @@ body{
     flex:auto;
     justify-content: center;
     flex-direction: column;
+    margin:0
 }
 
 .intro {
@@ -89,3 +90,64 @@ button {
 /*Infobox above*/
 /*Core Images below*/
 
+.core {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.core-images {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+}
+
+.core-subtext {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.subtext{
+    max-width: 150px;
+    text-align: center;
+    color:#1f2937
+}
+
+
+#core-header {
+    align-self: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.core img {
+    border: solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+/*Core above*/
+/*Quotes below*/
+
+
+
+/*Quotes above
+/*Signup below
+
+
+
+/*Signup above*/
+/*Footer below*/
